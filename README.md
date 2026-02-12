@@ -1,1 +1,1 @@
-https://github.com/DanGog-gh/ono-tebe-nado-fd
+https://github.com/DanGog-gh/ono-tebe-nado-fd/
