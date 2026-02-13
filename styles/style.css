@@ -32,14 +32,14 @@
     height: 105px;
 }
 
-.header-address { 
+.header-address {
     display: flex;
     justify-self: end;
     flex-direction: column;
     max-width: 240px;
-} 
- 
-.address-text { 
+}
+
+.address-text {
     line-height: 24px;
     font-style: normal;
     text-underline-offset: 4px;
