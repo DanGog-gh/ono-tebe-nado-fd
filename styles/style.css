@@ -4,6 +4,7 @@
     align-items: center;
     font-size: 18px;
     padding: 92px 50px 96px;
+    line-height: 100%;
 }
 
 .header-links-list {
@@ -11,6 +12,10 @@
     display: flex;
     gap: 30px;
     text-transform: lowercase;
+}
+
+.header-links-list-item:first-child {
+   list-style: none;
 }
 
 .header-link {
@@ -22,23 +27,20 @@
     text-decoration: none;
 }
 
-.header-links-list-item-no-bullit {
-    list-style: none;
-}
-
 .header-logo-image {
     width: 148px;
     height: 105px;
 }
 
-.header-address {
+.header-address { 
     display: flex;
     justify-self: end;
+    flex-direction: column;
     max-width: 240px;
+} 
+ 
+.address-text { 
     line-height: 24px;
-}
-
-.address-text {
     font-style: normal;
     text-underline-offset: 4px;
 }
@@ -62,6 +64,7 @@
 
 .cover-title {
     font-weight: 700;
+    line-height: 115%;
     font-size: 100px;
     letter-spacing: 0.3em;
     position: relative;
@@ -75,13 +78,13 @@
 .text-center {
     text-align: center;
     display: block;
-    padding-top: 14px;
+    margin-top: 20px;
 }
 
 .text-right {
     text-align: right;
     display: block;
-    padding-top: 14px;
+    margin-top: 20px;
 }
 
 .cover-description {
@@ -116,6 +119,7 @@
     font-size: 40px;
     padding-left: 40px;
     margin-bottom: 27px;
+    line-height: 100%;
 }
 
 .lots-card-list {
@@ -150,12 +154,14 @@
     position: relative;
     z-index: 2;
     text-underline-offset: 4px;
+    line-height: 120%;
 }
 
 .card-text {
     position: relative;
     font-size: 20px;
     z-index: 2;
+    line-height: 120%;
 }
 
 .card-type-film {
@@ -226,9 +232,9 @@
 
 .footer-address {
     display: flex;
+    flex-direction: column;
     justify-self: start;
     max-width: 265px;
-    line-height: 24px;
 }
 
 .footer-links-list {
@@ -252,7 +258,6 @@
     list-style: none;
     display: flex;
     gap: 48px;
-    width: 240px;
     justify-self: end;
 }
 
